@@ -10,7 +10,7 @@ if (isset($_POST['no_kp'])){
     $hasil = mysqli_query($samb,$sql);
     if ($hasil)
         echo "<script>alert('TAMBAH PEKERJA BERJAYA');
-        window.location='index.php'</script>";
+        window.location='Senarai.php'</script>";
         else
         echo "<script>alert('TAMBAH PEKERJA GAGAL!');
         window.location='tambah.php'</script>";

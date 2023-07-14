@@ -13,7 +13,7 @@ $samb= mysqli_connect($host, $user, $password, $database);
 $result = $samb->query($sql);
 if ($result == TRUE){
      echo "<script>alert('Berjaya padam rekod')
-     window.location='index.php'</script>";
+     window.location='Senarai.php'</script>";
 }else{
    echo "Error:" . $sql . "<br>" . $samb->error;
 }

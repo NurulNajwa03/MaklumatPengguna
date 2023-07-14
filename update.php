@@ -13,7 +13,7 @@ if(isset($_POST['no_kp'])) {
 
     $hasil = mysqli_query($samb, $sql);  
     if ($hasil) {
-        echo "<script>alert('Berjaya kemaskini')</script>";echo "<script>window.location='index.php'</script>";  
+        echo "<script>alert('Berjaya kemaskini')</script>";echo "<script>window.location='Senarai.php'</script>";  
     }else { 
         echo "<script>alert('Tidak berjaya kemaskini')</script>"; 
     }     
@@ -83,7 +83,7 @@ while ($info = mysqli_fetch_array($hasil)) {
             <button class="btn btn-outline-danger" style="border-radius: 5px; padding: 10px;"  type="reset">Reset</button><br><br>
             *Pilihan hanya dibenarkan sekali sahaja.
         </form>
-        <form action="index.php"> <button class="btn btn-outline-dark" style="border-radius: 5px; padding: 5px;"  type="submit">Home</button><br><br>
+        <form action="Senarai.php"> <button class="btn btn-outline-dark" style="border-radius: 5px; padding: 5px;"  type="submit">Home</button><br><br>
     </fieldset>
 </body>
 
