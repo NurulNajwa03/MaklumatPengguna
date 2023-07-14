@@ -17,6 +17,22 @@ include "config.php";
             padding: 10px;
             background-color: EEE9DA;
         }
+        
+        a:link {
+            text-decoration: none;
+            }
+
+        a:visited {
+            text-decoration: none;
+            }
+
+        a:hover {
+            text-decoration: underline;
+            }
+
+        a:active {
+            text-decoration: underline;
+            }
     </style> 
     </head>
     
@@ -48,8 +64,8 @@ include "config.php";
                <td><?php echo $info['no_kp']; ?></td>
                <td><?php echo $info['jantina']; ?></td>
                <td><?php echo $info['no_hp']; ?></td>
-               <td><button ><a href="update.php">Update</a></button></td>
-                <td><button ><a href="delete.php?no_kp=<?php echo $info['no_kp']; ?>" >Padam</a></button></td>
+               <td><button class="btn btn-outline-secondary"><a href="update.php">Update</a></button></td>
+                <td><button class="btn btn-outline-danger"><a href="delete.php?no_kp=<?php echo $info['no_kp']; ?>" >Padam</a></button></td>
                 
            </tr>
            <?php $id = $id + 1; } ?>
