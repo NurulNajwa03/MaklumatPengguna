@@ -34,14 +34,15 @@ if (isset($_POST['username'])){
             <form method="POST" > 
                  
             <div class="form-floating mb-3"> 
-  <input type="username" class="form-control" id="floatingInput" placeholder="name@example.com" name="username"> 
-  <label for="floatingInput">username address</label> 
-</div> 
-<div class="form-floating"> 
-  <input type="password" class="form-control" id="floatingPassword" placeholder="Password" name="password"> 
-  <label for="floatingPassword">Password</label> 
-</div> 
-<br> 
+            <input type="username" class="form-control" id="floatingInput" placeholder="name@example.com" name="username"> 
+            <label for="floatingInput">username address</label> 
+            </div> 
+            
+            <div class="form-floating"> 
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password" name="password"> 
+            <label for="floatingPassword">Password</label> 
+            </div> 
+            <br> 
                 <button class="btn btn-success">Login</button> 
             </form> 
         </center> 

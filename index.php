@@ -12,7 +12,7 @@ include "config.php";
         table, tr, td, th{
             margin: 50px;
             border: 1px solid ;
-            border-color: 6096B4;
+            border-color: #6096B4;
             border-collapse: collapse;
             padding: 10px;
             background-color: EEE9DA;
