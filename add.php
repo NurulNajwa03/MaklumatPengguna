@@ -65,8 +65,8 @@ if (isset($_POST['no_kp'])){
           <br>
  
             <!-- butang add & clear -->
-            <button class="btn btn-primary"  type="submit">add</button>
-            <button  class="btn btn-secondary" type="reset">clear</button><br>
+            <button class="btn btn-primary"  type="submit">Add</button>
+            <button  class="btn btn-secondary" type="reset">Clear</button><br>
             *Pilihan hanya dibenarkan sekali sahaja.
 
         </form>
