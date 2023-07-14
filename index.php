@@ -17,21 +17,6 @@ include "config.php";
             padding: 10px;
             background-color: EEE9DA;
         }
-        a:link {
-            text-decoration: none;
-            }
-
-        a:visited {
-            text-decoration: none;
-            }
-
-        a:hover {
-            text-decoration: underline;
-            }
-
-        a:active {
-            text-decoration: underline;
-            }
     </style> 
     </head>
     
@@ -58,17 +43,16 @@ include "config.php";
             while ($info = mysqli_fetch_array($data)) {
             ?>
             <tr>
-               <!-- <td><php echo $id; ?></td> -->
-               <td><?php echo $info['id']; ?></td>
+               <td><?php echo $id; ?></td>
                <td><?php echo $info['nama']; ?></td>
                <td><?php echo $info['no_kp']; ?></td>
                <td><?php echo $info['jantina']; ?></td>
                <td><?php echo $info['no_hp']; ?></td>
-               <td><button class="btn btn-outline-primary" ><a href="update.php">Update</a></button></td>
-                <td><button  class="btn btn-outline-danger"><a href="delete.php?no_kp=<?php echo $info['no_kp']; ?>" >Padam</a></button></td>
+               <td><button ><a href="update.php">Update</a></button></td>
+                <td><button ><a href="delete.php?no_kp=<?php echo $info['no_kp']; ?>" >Padam</a></button></td>
                 
            </tr>
-           <?php $id = $id + 1;  }?> 
+           <?php $id = $id + 1; } ?>
            <!-- <button><a href="add.php">Tambah</a></button> -->
         </table>
     </body>

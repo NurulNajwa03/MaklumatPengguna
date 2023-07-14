@@ -30,9 +30,6 @@ if (isset($_POST['no_kp'])){
         <header>
         <!-- Papar Borang Pendaftaran -->
         <form method="POST">
-        <label for="validationCustom04" class="form-label" style=" padding-bottom: 5px;">ID </label><br>
-            <input class="form-control" style="border-radius: 5px; padding: 5px;" type="text" name="id" placeholder="101" maxlength='12' size="15" ><br>
-
             <label for="validationCustom04" class="form-label" style=" padding-bottom: 5px;">IC </label><br>
             <input class="form-control" style="border-radius: 5px; padding: 5px;" type="text" name="no_kp" placeholder="090887031234" maxlength='12' size="15" ><br>
 
